@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            background-color: rgb(209, 153, 12);
+        }
+        .header{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .topnav{
+            overflow: hidden;
+            background-color: red;
+        }
+        .topnav a{
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .topnav a:hover{
+            color:rgb(223,15,15);
+            background-color: #ddd;
+            color: black;
+        }
+        .name{
+            color: blue;
+        }
+        .about{
+            text-align: center;
+            font-weight: bold;
+            color: white;
+        }
+        .border{
+            border-radius: 90%;
+            height: 250px;
+            width: 200px;
+            margin-top: 20px;
+        }
+        .p{
+            text-align: justify;
+        }
+        table{
+            background-color: limegreen;
+        }
+        th{
+            background-color: blue;
+            color: white;
+        }
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .footer{
+            background-color:  black;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .row{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Portfolio</h1>
+    </div>
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#About">About</a>
+        <a href="#Skill">Skill & Experience</a>
+        <a href="#Ach">Achievement</a>
+    </div>
+    <div class="row">
+       
+            <center>
+                <img src="Foto bg merah.jpeg" class="border">
+                <h1 class="name">Muhammad Fajar Ramadhan</h2>
+            </center>
+            <br><br>
+            <div class="about">
+                <h2 id="About">About</h2>
+            </div>
+            <p class="p">Lulusan SMK Texmaco Karawang tahun 2022 (Fresh Graduated) yang tertarik dengan dunia teknologi. Senang mempelajari hal-hal baru, mudah beradaptasi, dan dapat berkomunikasi dengan baik. Saya dalam kondisi kesehatan yang sangat baik, serta mampu bekerja baik secara individu maupun secara tim.</p>
+            <br>
+            <h2 class="about" id="Skill">Skill & Experience</h2>
+           <table border="1" width="100%" cellpadding="10px" cellspacing="0">
+                <tr>
+                    <th>Skill</th>
+                    <th>Experience</th>
+                </tr>
+                <tr>
+                    <td>HTML (Beginner)</td>
+                    <td>Prakerin</td>
+                </tr>
+                <tr>
+                    <td>CSS (Beginner)</td>
+                    <td>Uji Kompetensi</td>
+                </tr>
+                <tr>
+                    <td>Ms. Word</td>
+                    <td>Ekskul Badminton</td>
+                </tr>
+                <tr>
+                    <td>Ms. Excell</td>
+                    <td>Karang Taruna</td>
+                </tr>
+                <tr>
+                    <td>Bahasa Inggris</td>
+                    <td>English Course</td>
+                </tr>
+            </table>
+    </div>
+    <br><br>
+    <h2 class="about" id="Ach">Achievement</h2>
+    <div class="row">
+    <div class="Achievement">
+        <table border="1" width="100%" cellspacing="0" cellpadding="5">
+        <tr>
+            <th>Achievement</th>
+        </tr>
+        <tr>
+            <td>Peringkat 1 Kelas 2 SD - 6 SD</td>
+        </tr>
+        <tr>
+            <td>Peringkat 1 Kelas 1 SMP - 3 SMP</td>
+        </tr>
+        <tr>
+            <td>Peringkat 1 Kelas 1 SMK - 3 SMK</td>
+        </tr>
+        </table>
+    </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2022 | @mfajarr25 | STMIK Horizon Karawang</p>
+        <p>Contact Me : +62895333530959</p>
+</body>
+</html>

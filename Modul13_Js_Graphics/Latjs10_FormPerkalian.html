@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form name="formPerkalian">
+    <h1>Memasukan Data Lewat Keyboard</h1>
+    Bilangan Pertama : <input type="number" size="12" name="bilangan1">
+    Bilangan Kedua : <input type="number" size="12" name="bilangan2">
+    <button onclick="kali()">Perkalian</button>
+    <input type="reset" value="Ulang">
+    </form>
+
+    <script>
+        function kali(){
+            let bilangan1 = parseFloat(document.formPerkalian.bilangan1.value)
+            if(isNaN(bilangan1)) bilangan1 = 0.0
+            let bilangan2 = parseFloat(document.formPerkalian.bilangan2.value)
+            if(isNaN(bilangan2)) bilangan2 = 0.0
+            let hasil = bilangan1 * bilangan2
+            alert(`Hasil Perkalian = ${hasil}`)
+        }
+    </script>
+</body>
+</html>

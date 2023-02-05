@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menggunakan Tag Picture</title>
+</head>
+<body>
+    <h1>Menggunakan Tag Picture di HTML</h1>
+    <p>Berikut ini adalah gambar gunung di Jawa Barat :</p>
+
+    <picture>
+        <source media="(min-width: 800px)"; srcset="https://dafunda.com/wp-content/uploads/2019/10/momen-kucing-ini-gagal-imut-malah-bikin-ngakak-2.jpg">
+        <source media="(min-width: 650px)"; srcset="image/gede-pangrango.jpg">
+        <source media="(min-width: 450px)"; srcset="https://i.ibb.co/ZXVPRjw/gunung-ciremai.jpg">
+        <img src="image/gede-pangrango.jpg">
+    </picture>
+</body>
+</html>
