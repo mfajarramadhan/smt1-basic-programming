@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="typing.js"></script>
+</head>
+
+<body onload="typing()">
+    <!--Radio Check-->
+    <input type="radio" name="radio" id="check">
+    <input type="radio" name="radio" id="close" checked>
+
+    <!--===============NAV===============-->
+    <nav>
+        <div class="logo">
+            <h1>Muh_<span>Fajar</span></h1>
+        </div>
+
+        <ul class="slide">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#galery">Galery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!--Menu Toggle Untuk Open dan Check Menu-->
+        <label class="menu-toggle" for="check">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <!--Menu Toggle Untuk Close-->
+        <label class="close-toggle" for="close">
+            <span></span>
+            <span></span>
+        </label>
+    </nav>
+
+    <!--===============HOME===============-->
+    <div class="container">
+        <div class="hero">
+            <div class="profile" id="home">
+                <div class="content-profile">
+                    <img class="pict-profile" src="../Tugas_Akhir/Foto bg merah.jpeg" alt="Foto Background Merah">
+                    <div class="content">
+                        <h2>Hallo</h2>
+                        <h1>Saya <span id="text"></span></h1>
+                        <h2>Mahasiswa STMIK Horizon Karawang</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!--===============ABOUT===============-->
+            <div class="about">
+                <h1 id="about">Ab<span>out</span></h1>
+                <hr>
+            </div>
+            <div class="content-about">
+                <p>Hai, saya adalah seorang Junior Web Weveloper. Saat ini, saya sedang melanjutkan pendidikan saya
+                    di<br>
+                    STMIK HORIZON KARAWANG Program Studi Sistem Informasi.
+                    Saya senang mempelajari hal-hal baru dan memiliki ketertarikan di bidang Teknologi khususnya Ilmu
+                    Komputer.</p>
+                <h1 class="quote">Qu<span>ote</span></h1>
+                <q>Be Better Than Before</q>
+                <p>Jadilah lebih baik dari sebelumnya</p>
+            </div>
+
+            <!--===============EDUCATION===============-->
+            <div class="education">
+                <h1 id="education">Edu<span>cation</span></h1>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h2>SMK TEXMACO KARAWANG</h2>
+                    <h3>(<span>2019 - 2022</span>)</h3>
+                </div>
+                <div class="column">
+                    <h2>SMPN 1 CIAMPEL KARAWANG</h2>
+                    <h3>(<span>2018 - 2019</span>)</h3>
+                </div>
+                <div class="column">
+                    <h2>SMPN 25 KOTA BEKASI</h2>
+                    <h3>(<span>2016 - 2018</span>)</h3>
+                </div>
+                <div class="column">
+                    <h2>SDN KALIBARU I BEKASI</h2>
+                    <h3>(<span>2010 - 2016</span>)</h3>
+                </div>
+            </div>
+
+            <!--===============SKILL===============-->
+            <div class="skill">
+                <h1 id="skill">Sk<span>ill</span></h1>
+                <hr>
+            </div>
+            <table border="1" cellspacing="0" cellpadding="0" class="table">
+                <tr>
+                    <td width="50%">
+                        <ul type="none">
+                            <li>HTML (Beginner)</li>
+                            <li>CSS (Beginner)</li>
+                            <li>Ms. Word (Beginner)</li>
+                            <li>Ms. Excel (Beginner)</li>
+                            <li>Bahasa Inggris (B1 Intermediate)</li>
+                            <li>Perhitungan Dasar (Expert)</li>
+                        </ul>
+                    </td>
+                    <td width="50%">
+                        <ul type="none">
+                            <li>Jujur</li>
+                            <li>Kerjasama Tim</li>
+                            <li>Bertanggung Jawab</li>
+                            <li>Komunikasi yang Baik</li>
+                            <li>Mudah Beradaptasi</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <!--===============GALERY===============-->
+            <div class="galery">
+                <h1 id="galery">Gal<span>ery</span></h1>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="column2">
+                    <figcaption>
+                        <img src="../Tugas_Akhir/Bootcamp web fundamental html 5 dan css.jpeg" width="100%"
+                            height="250px">
+                        Bootcamp Web <br>Fundamental Html 5 dan CSS
+                    </figcaption>
+                </div>
+                <div class="column2">
+                    <figcaption>
+                        <img src="../Tugas_Akhir/LDKM 2022.jpeg" width="100%" height="250px">
+                        LDKM 2022 Curug Sadim (Subang)
+                    </figcaption>
+                </div>
+                <div class="column2">
+                    <figcaption>
+                        <img src="../Tugas_Akhir/XII TEI 1.jpeg" width="100%" height="250px">
+                        Kelas 12 Teknik Elektronika Industri 1 <br>SMK TEXMACO KARAWANG
+                    </figcaption>
+                </div>
+                <div class="column2">
+                    <figcaption>
+                        <img src="../Tugas_Akhir/IX B.jpeg" width="100%" height="250px">
+                        Kelas IX B <br>SMPN 1 Ciampel Karawang
+                    </figcaption>
+                </div>
+                <div class="column2">
+                    <figcaption>
+                        <img src="../Tugas_Akhir/Karang Taruna.jpeg" width="100%" height="250px">
+                        Karang Taruna Irakarya <br>(Ikatan Remaja Mekar Jaya)
+                    </figcaption>
+                </div>
+                <div class="column2">
+                    <figcaption>
+                        <img src="../Tugas_Akhir/Pencak Silat 2018.jpeg" width="100%" height="250px">
+                        Ikatan Pencak Silat Seluruh Indonesia (IPSI)<br>Perguruan Pusaka Siliwangi
+                    </figcaption>
+                </div>
+            </div>
+
+            <!--===============CONTACT===============-->
+            <div class="contact">
+                <h1 id="contact">Con<span>tact</span></h1>
+                <hr>
+            </div>
+            <div class="form-container">
+                <form action="" method="post">
+                    <label for="name">Nama :</label><br>
+                    <input type="text" id="name" placeholder="Masukan nama anda"><br><br>
+                    <label for="phone">No. Telepon :</label><br>
+                    <input type="tel" id="phone" placeholder="+62***********"><br><br>
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" placeholder="Masukan email anda"><br><br>
+                    <label for="pesan">Pesan :</label><br>
+                    <textarea rows="8" cols="80" placeholder="Masukan pesan anda" id="pesan"></textarea><br><br>
+                    <button type="submit">Kirim</button><br>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--===============FOOTER===============-->
+    <footer>
+        <p>Copyright 2022 | @mfajarr25 | STMIK Horizon Karawang</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe Menampilkan Sebuah Web</title>
+</head>
+<style>
+    .navi {
+        background-color: red;
+        padding: 10px;
+
+    }
+
+    li {
+        display: inline;
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+    }
+</style>
+
+<body>
+    <nav class="navi">
+        <ul>
+            <li><a href="lat05-home.html" target="content">Beranda</a></li>
+            <li><a href="lat06-tabel-hewan.html" target="content">Data Hewan</a></li>
+            <li><a href="../docs/modul10.pdf" target="content">File Pdf</a></li>
+            <li><a href="https://www.youtube.com/embed/ln63FD_pzTM" target="content">Link</a></li>
+        </ul>
+    </nav>
+
+    <iframe src="lat05-home.html" name="content" height="500px" width="50%" frameborder="0"></iframe>
+</body>
+
+</html>

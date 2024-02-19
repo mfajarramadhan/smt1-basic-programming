@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .h1 {
+            background-color: rgb(18, 255, 18);
+            border: 1px solid black;
+            padding: 40px;
+            text-align: center;
+            color: white;
+            margin: 0px;
+        }
+
+        .nav {
+            background-color: rgb(18, 255, 18);
+            border-right: 1px solid black;
+            border-left: 1px solid black;
+            height: 100%;
+        }
+
+        h3,
+        ul {
+            margin-top: 0px;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        a:hover {
+            color: red;
+            background-color: white;
+        }
+
+        .sidebar {
+            float: left;
+            width: 15%;
+            height: 500px;
+        }
+
+        .content {
+            float: right;
+            width: 85%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="h1">Latihan Multimedia</h1>
+    <div class="sidebar">
+        <nav class="nav">
+            <ul>
+                <li>
+                    <h3><a href="index.html">Home</a></h3>
+                </li>
+                <li>
+                    <h3><a href="lat01-video.html" target="content">Video Local</a></h3>
+                </li>
+                <li>
+                    <h3><a href="lat02-audio.html" target="content">Audio</a></h3>
+                </li>
+                <li>
+                    <h3><a href="lat03-yt.html" target="content">Video Youtube</h3>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <iframe src="lat04-home.html" name="content" height="400px" width="100%" frameborder="0"></iframe>
+    </div>
+</body>
+
+</html>
